@@ -1,0 +1,55 @@
+/* For Tablets */
+@media all and (max-width: 1000px) {
+  .main {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+  .content {
+    width: 50%
+  }
+  
+  .banner-left {
+    font-size: 32px;
+  }
+  
+
+}
+
+/* For Smartphones */
+@media all and (max-width: 670px) {
+  .header-right a {
+    display: none;
+  }
+  .header-right .menu-icon {
+    display: block;
+  }
+
+  .main {
+    width: 100%;
+  }
+  .content {
+    width: 100%
+  }
+  
+  footer {
+    text-align: center;
+  
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .banner-left h2 {
+    font-size: 20px;
+    line-height: 36px;
+  }
+  
+  .banner-left p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+ 
+}
