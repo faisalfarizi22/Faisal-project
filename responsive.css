@@ -1,7 +1,6 @@
 /* For Tablets */
 @media all and (max-width: 1000px) {
   .main {
-    width: 50%;
     margin-bottom: 50px;
   }
   .content {
